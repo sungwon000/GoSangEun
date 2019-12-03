@@ -1,0 +1,353 @@
+/* ------------------------------결제하기 1/3------------------------------ */
+
+.pay_sub_left {
+    width: 650px;
+    height: 750px;
+    float: left;
+    margin-right: 50px;
+    background-color: beige;
+}
+
+.pay_sub_right {
+    width: 400px;
+    height: 600px;
+    padding: 5px 10px;
+    float: left;
+    background-color: beige;
+}
+
+.pay_header {
+    background: lightgray;
+    font-size: 15px;
+    /* width: 650px; */
+    padding: 7px 15px;
+}
+
+.delivery_content {
+    padding: 12px;
+}
+
+.pay_txt {
+    width: 650px;
+    font-size: 17px;
+    background: black;
+    color: white;
+    padding: 10px 10px 10px 15px;
+}
+
+.order_request {
+    padding: 6px 13px;
+}
+
+.pay_h_txt {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    font-size: 13px;
+    text-align: right;
+    padding: 1px 0px;
+}
+
+.pay_select_list_wrapper {
+    padding: 2px 12px;
+}
+
+.p_select_list {
+    list-style: none;
+}
+
+.order_name {
+    list-style: none;
+}
+
+
+/* .card-header {
+    width: 400px;
+
+  } */
+
+.card_box {
+    /* 신용/체크카드 현금*/
+    width: 650px;
+}
+
+
+/* .input-group2 {
+  } */
+
+
+/* ------------------------------주문내역 2/3------------------------------ */
+
+.wrapper {
+    margin: 15px;
+    padding: 0px 200px;
+    /* align-content: center; */
+    /* color: purple; */
+}
+
+.order_info dt {
+    font-size: 18px;
+    /* color: hotpink; */
+    font-weight: bold;
+}
+
+
+/* .p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+  } */
+
+.processing {
+    list-style: none;
+    padding: 0 55px;
+    /* margin: 0px 0px 10px; */
+}
+
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border: 0;
+    float: left;
+    align-content: center;
+}
+
+.ordered {
+    /* width: 700px;
+    height: 250px; */
+    /* margin: 100px; */
+    /* padding: 200px 200px; */
+    padding: 10px 200px 20px;
+    /* background-color: lightgreen; */
+    /* border-spacing: 100 150px; */
+    /* text-align: center; */
+}
+
+.tbl {
+    padding: 10px 19px;
+    /* border: 1px solid #bebebe; */
+    /* border: 1px solid red; */
+    /* border-right: hidden; */
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    /* border-bottom:1px solid blue; */
+    /* border-width: 0 1px 1px 0; */
+    border-width: 0 1px 1px 0;
+    /* border-width: 10px 10px 10px 10px; */
+    font-size: 14px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.txt_bold {
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    /* border-left: 1px solid blue; */
+}
+
+.txt_red {
+    font-weight: bold;
+    color: red;
+}
+
+.txt_align_left {
+    width: 900px;
+    text-align: left;
+    padding: 10px 20px;
+    border-right: 1px solid blue;
+    /* border-bottom:1px solid blue; */
+}
+
+.price {
+    width: 30px;
+    /* padding: 0px 30px; */
+    /* text-align: center; */
+    border-left: 1px solid blue;
+    /* border-right: 1px solid blue; */
+}
+
+.price_p {
+    margin: 0 0 0 0;
+    padding: 0 0 5px;
+}
+
+
+/* a[class^=btn].btn.basic{
+    width: 400px;
+    padding: 10px 20px;
+  } */
+
+a[class^=btn] {
+    height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    width: 210px;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 10px;
+    border-color: #fb3b51;
+    background-color: #fb3b51;
+    color: #fff;
+}
+
+div[class^=btn] {
+    text-align: center;
+}
+
+.line {
+    border-bottom: 1px solid lightgray;
+    border-image-width: 10px;
+    /* .receipt_bold 랑 border-bottom 색 맞출것!!!!!!!!!!! */
+    /* border-bottom: 1px solid #EEE;  3p  */
+}
+
+.processing_txt {
+    margin: 0 0 0 0;
+    padding: 5px 0 3px;
+}
+
+.wrapper_img {
+    margin: 15px;
+    padding: 0px 200px;
+    width: 150px;
+    height: 180px;
+    /* background-color: cornflowerblue; */
+}
+
+
+/* ------------------------------결제 영수증 3/3------------------------------ */
+
+.receipt_wrapper {
+    /* margin: 20px;
+    padding: 0px 500px; */
+    width: 450px;
+    height: 600px;
+    background-color: beige;
+    margin: 20px 0 0 300px;
+    /* text-align: center; */
+}
+
+
+/* .store_info {
+    border-bottom: 2px dashed gray;
+  } */
+
+
+/* h2{font-size: .9em;} */
+
+
+/* h3 {
+    font-size: 20ps;
+    margin: 5px 0px;
+  } */
+
+.receipt_logo {
+    /* line-height: 100px;  */
+    /* text-align: center; */
+    /* background: 1.PNG no-repeat; */
+    background-size: 10px 10px;
+    /* width: 100%; height: 100px;  */
+}
+
+.receipt_img {
+    text-align: center;
+    /* border-bottom:1px solid grey; */
+    padding: 20px 10px 0;
+}
+
+.item {
+    font-size: 18px;
+    /* font-weight: lighter; */
+    padding: 8px 6px;
+}
+
+.item_red {
+    font-size: 18px;
+    color: red;
+    padding: 8px 6px;
+}
+
+.tr[class^=receipt_bold] {
+    font-weight: bold;
+}
+
+.receipt_bold_1 {
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.receipt_bold_2 {
+    font-weight: bold;
+}
+
+
+/*
+  .receipt_bold {
+  /* .tr[class^=receipt_bold] { 
+    font-weight: bold;
+    background: lightgray;  
+  } */
+
+.itemtext {
+    margin: 5px 0px;
+}
+
+.txt_align_left2 {
+    width: 250px;
+    text-align: left;
+    padding: 6px 9px;
+    /* border-right: 1px solid blue; */
+}
+
+.txt_qty {
+    width: 50px;
+    text-align: center;
+    padding: 6px 9px;
+}
+
+.txt_total {
+    width: 130px;
+    text-align: left;
+    padding: 6px 9px;
+}
+
+.receipt_storeinfo {
+    font-size: 11px;
+    padding: 0 10px;
+}
+
+.receipt_order_info {
+    /* text-align: center; */
+    padding: 0 10px;
+}
+
+.receipt_inc_font {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 0 0 5px;
+}
+
+.receipt_info_txt_h {
+    width: 300px;
+    margin: 5px 60px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.receipt_info_txt {
+    width: 100px;
+    margin: 0 0 0 0;
+    padding: 0 0;
+}
+
+.card mb-4 {
+    /* text-align: center; */
+    /* width: 100px; */
+}
+
+.receipt_order_info {
+    align-content: center;
+}

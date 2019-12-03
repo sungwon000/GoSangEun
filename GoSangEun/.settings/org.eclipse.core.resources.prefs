@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/about.jsp=UTF-8
+encoding//WebContent/confirmid.jsp=UTF-8
+encoding//src/config/go-query.properties=UTF-8
+encoding//src/config/query.properties=UTF-8
+encoding//src/config/shop-query.properties=UTF-8
+encoding//src/model/dao/ShopDao.java=UTF-8
+encoding//src/model/vo/Member.java=UTF-8

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    /* body {
+        font-family: 빙그레체;
+        font-size: 20px;
+        margin: 0 auto 0 auto;
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+        height: 800px !important;
+    } */
+    
+    .box {
+        background: white;
+        width: 300px;
+        margin: 0 auto 0 auto;
+        padding: 0px 20px 10px 50px;
+        border: black 1px solid;
+    }
+    
+    #footer {
+        font-size: 13px;
+        color: white;
+        background-color: rgb(5, 5, 201);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    header.form_header {
+        text-align: center;
+        background-color: #363f48;
+        color: #FFF;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 15px 5px;
+        border-bottom: 1px solid #C7C4C4;
+        border-radius: 2px 2px 0 0;
+    }
+    
+    #signup_wrapper {
+        margin-left: 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        background: white;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    }
+    /* 오른쪽 박스 */
+    
+    main.cf.my_account {
+        margin-top: 100px;
+        margin-left: 70px;
+        background: white;
+        padding: 26px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    }
+    
+    .page-template-page-login .blog-main-content {
+        padding: 100px 0;
+    }
+    
+    .blog-main-content {
+        background: #fafafa;
+        height: 700px;
+    }
+    
+    .col-md-5 {
+        -ms-flex: 0 0 41.666667% !important;
+        flex: 0 0 41.666667% !important;
+        max-width: 41.666667% !important;
+        height: 420px;
+    }
+</style>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>로그인</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- 화면 사이즈 줄이면 -->
+    <script>
+        $(window).resize(function() {
+
+            var width_size = window.outerWidth;
+
+            if (width_size <= 800) {
+                alert('사이즈가 작습니다');
+            } else if (width_size > 800) {
+
+            }
+        })
+    </script>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="../SemiProject/images/logo.png" alt="logo" style="width: 120px;"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </nav>
+
+    <!-- 회원가입부분 -->
+    <div id="pjax-container">
+        <div class="blog-main-content">
+            <div class="container">
+                <div class="row">
+                    <div id="signup_wrapper" class="col-md-5 col-md-offset-1">
+                        <header class="form_header">
+                            <h3>Login</h3>
+                        </header>
+                        <div id="signup_box">
+                            <div class="text-center">
+                            </div>
+                            <br />
+                            <form id="wagon_login_form" method="post" action="https://themewagon.com/wp-admin/admin-ajax.php?action=wagon_support_login_action&nonce=69b8631805">
+                                <input type="hidden" name="nonce" value="69b8631805">
+                                <input type="hidden" name="redirect" value="">
+                                <div class="form-group">
+                                    <label for="id">ID *</label>
+                                    <input placeholder="ID" type="text" required class="form-control" name="id" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="first_name">Password *</label>
+                                    <input required type="password" placeholder="Password" class="form-control" name="password" value="" />
+                                </div>
+                                <div class="form-group login-link">
+                                    <a href="/wp-login.php?action=lostpassword">비밀번호 찾기</a>
+                                </div>
+                                <div class="form-group text-center">
+                                    <input id="login_submit" type="submit" value="Login" onclick="location.href='index_login.html'" class="btn btn-success btn-lg btn-block" />
+                                </div>
+                                <div class="form-group text-center">
+                                    <input id="unlogin_submit" type="submit" value="비회원주문" class="btn btn-success btn-lg btn-block" />
+                                </div>
+
+                                <div class="form-group login-link">
+                                    <p>아직 회원이 아니신가요? <a href="join.html">회원 가입 하기 &rarr;</a>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <main class="cf my_account col-md-5 col-md-offset-1">
+                        <article class="full-width">
+                            <h1 class="offer_page_header" float="center">회원 가입 특전</h1>
+
+                            <ul class="account_features">
+                                <li>배달 주소 저장</li>
+                                <li>내 주문 내역 확인</li>
+                                <li>별점 등록 가능</li>
+                                <li>아무튼</li>
+                                <li>무료니깐 가입하면 좋음</li>
+                                <li>빨리 가입해</li>
+                            </ul>
+                        </article>
+                    </main>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+        <!-- main-content end -->
+
+        <!-- 회원가입 스크립트 -->
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                jQuery("#wagon_login_form").on('submit', function(e) {
+                    e.preventDefault();
+                    $('#login_submit').val('Processing').attr('disabled', 'disabled');
+
+                    var nonce = $("input[name=nonce]").val(),
+                        email = $('input[name=email]').val(),
+                        password = $('input[name=password]').val(),
+                        redirect = $('input[name=redirect]').val();
+
+                    jQuery.ajax({
+                        type: "post",
+                        dataType: "json",
+                        url: "https://themewagon.com/wp-admin/admin-ajax.php",
+                        data: {
+                            action: "wagon_support_login_action",
+                            nonce: nonce,
+                            email: email,
+                            password: password,
+                            redirect: redirect
+                        },
+                        success: function(response) {
+                            if (response.status == "success") {
+                                window.location.href = response.redirect_url;
+                            } else {
+                                $('#login_alert').html(response.errors).removeClass('hide');
+                                $('#login_submit').val('Login').attr('disabled', false);
+                            }
+                        }
+                    });
+
+                });
+            });
+        </script>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                &copy; (안) 정식 없는 KH 정식 &nbsp;&nbsp; 2019 All Right Reserved <br> &lt; 서울시 강남구 태헤란로 14-6 &gt; <br> E-mail: xxxx@xxxx.co.kr &nbsp;&nbsp; &phone;02-123-4567
+            </p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
